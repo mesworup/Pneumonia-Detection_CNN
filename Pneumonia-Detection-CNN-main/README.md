@@ -110,3 +110,6 @@ npm run dev
 *   `GET /api/reports/patient/:id` - Get specific patient history (Doctor only)
 ### ML Service
 *   `POST /predict` - Internal endpoint for image classification
+### Team
+*   `Roshan Chaudhary` - https://github.com/Roshan-ch
+*   `Nadish Acharya` -
