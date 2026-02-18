@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+venv/
+venv_hybrid/
+venv314/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/*
+server/uploads/*
+!uploads/.gitkeep
+!server/uploads/.gitkeep
+
+# ML Models (optional - uncomment if models are large)
+*.pth
+# *.pt
+# *.onnx
+
+# Logs
+*.log
+npm-debug.log*
