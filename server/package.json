@@ -1,0 +1,30 @@
+{
+    "name": "pneumonia-detection-server",
+    "version": "1.0.0",
+    "description": "Backend for Pneumonia Detection App",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "ml-service": "python ml_service/main.py",
+        "dev:all": "concurrently \"npm run dev\" \"npm run ml-service\" --names \"API,ML\" --prefix-colors \"cyan,magenta\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "axios": "^1.13.2",
+        "bcryptjs": "^3.0.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^8.3.3",
+        "multer": "^2.0.2"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1",
+        "nodemon": "^3.1.0"
+    }
+}
